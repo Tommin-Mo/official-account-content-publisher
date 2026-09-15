@@ -1,0 +1,13 @@
+.DS_Store
+__pycache__/
+*.pyc
+.state/
+dist/
+build/
+*.zip
+.workbuddy/
+assets/
+demo_*_draft.json
+demo_*_reviewed.json
+demo_*_final.json
+draft_acceptance_*.json
