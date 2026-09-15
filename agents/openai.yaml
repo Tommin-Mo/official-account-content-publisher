@@ -1,0 +1,6 @@
+interface:
+  display_name: "微信公众号内容与自动发布助手"
+  short_description: "把主题与资料转成可审查、排版并可投递的公众号文章。"
+  default_prompt: "使用 $wechat-official-content-publisher 把这个主题做成一篇公众号文章，先完成事实与洞察审查，再给出预览和草稿投递选项。"
+policy:
+  allow_implicit_invocation: true

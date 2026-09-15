@@ -1,0 +1,29 @@
+{
+  "browser-skill": {
+    "repository": "https://github.com/Tencent/BrowserSkill",
+    "commit": "49744233f75734e58a51ba187fc5a06826f7e13e",
+    "license": "MIT",
+    "cli_version": "0.2.0",
+    "runtime_status": "external_required_verified_at_runtime",
+    "exclusions": [
+      "No browser cookie, profile export, or arbitrary file bridge is permitted.",
+      "The public package contains no BrowserSkill binary, browser extension, browser profile, or pairing data."
+    ]
+  },
+  "baoyu-post-to-wechat": {
+    "repository": "https://github.com/JimLiu/baoyu-skills",
+    "commit": "6b7a2e417500561a5ecdd0b168332f4142584617",
+    "license": "MIT",
+    "audited_files": {
+      "LICENSE": "601839401f6ce68b7a8aec0f7ba247ab8ef0848113378220bec4b2615cc84ee7",
+      "skills/baoyu-post-to-wechat/scripts/cdp.ts": "41a8050224f7dc458f1e7bad6758ec39d1d9b09aeabe0767032a34e4d29880d5",
+      "skills/baoyu-post-to-wechat/scripts/wechat-article.ts": "7720b52ddd4b8ac8f4a9860c3c2ee4bde8e053f65c06bb21f17300adc703b48e"
+    },
+    "runtime_status": "not_vendored_reference_only",
+    "exclusions": [
+      "Upstream optional Telegram QR transfer is prohibited.",
+      "Upstream weak draft verification is prohibited.",
+      "Reference only; it is never configured as this Skill's runtime publisher."
+    ]
+  }
+}
